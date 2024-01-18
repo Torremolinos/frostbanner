@@ -1,3 +1,6 @@
+
+const formulario = document.getElementById("formulario");
+
 const mostrarDatosIf = () => {
     const seleccionado = formulario.informacion.value;
     if (seleccionado) {
@@ -8,12 +11,13 @@ const mostrarDatosIf = () => {
 }
  
 const mostrarDatosTernario = () => {
-    formulario.informacion.value && alert(formulario.informacion.value)
+    formulario.london.value && alert(formulario.london.value)
 }
+
  
 const mostrarDatosFor = () => {
-    formulario.informacion.forEach(solicitud => {
-        if (solicitud.checked) { alert(solicitud.value) }
+    formulario.london.forEach(london => {
+        if (london.checked) { alert(london.value) }
     })
 }
  
