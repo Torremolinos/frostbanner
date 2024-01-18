@@ -54,7 +54,7 @@ form {
   text-align: center;
   box-shadow: 0 0 10px 0 rgba(1, 26, 69, 0.799);
   width: 21rem;
-  height: 28rem;
+  height: 29rem;
   background: #0c3b62e2;
 }
 .formu {
@@ -63,4 +63,12 @@ form {
 }
 h2{
     margin-top: 2%;
+}
+
+input[type="submit"]{
+    margin-top: 2%;
+    border: 1px solid rgb(12, 12, 12);
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
 }
