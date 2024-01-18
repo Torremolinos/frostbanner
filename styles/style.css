@@ -1,45 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
 }
-:root{
-    --header-height: 5.13125rem;
-    --header-padding: 0.3125rem;
-}
-
-.header{
-    background: rgb(254, 254, 254);
-    display: flex; /*flexbox*/
-    justify-content:center; /*alineacion horizontal*/
-    align-items: center;    /*alineacion vertical*/
-    height: var(--header-height); /*altura del header*/
-    padding: var(--header-padding) 10%;
+:root {
+  --header-height: 5.13125rem;
+  --header-padding: 0.3125rem;
 }
 
-img{
-    margin-top: 25%;
-    width: 100%;
-    height: 100%;
-    align-items: center;
+.header {
+  background: rgb(254, 254, 254);
+  display: flex; /*flexbox*/
+  justify-content: center; /*alineacion horizontal*/
+  align-items: center; /*alineacion vertical*/
+  height: var(--header-height); /*altura del header*/
+  padding: var(--header-padding) 10%;
 }
 
-    .header nav a li ul { 
-        list-style: none;
-        color:rgb(255, 255, 255);
-        background: #ffffff;
-    }
+img {
+  margin-top: 25%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
 
-    .header li a{
-        text-decoration: none;
-        color: rgb(12, 12, 12);
-        padding: 1rem;
-    }
-    .header li{
-        display: inline-block;
-        
-    }
+.header nav a li ul {
+  list-style: none;
+  color: rgb(255, 255, 255);
+  background: #ffffff;
+}
+
+.header li a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  padding: 1rem;
+}
+.header li {
+  display: inline-block;
+}
+
+section {
+    margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(1, 26, 69, 0.799);
+  width: 21rem;
+  height: 28rem;
+  background: #0c3b62e2;
+}
+.formu {
+  border: 1px solid rgb(12, 12, 12);
+  color: rgb(12, 12, 12);
+}
+h2{
+    margin-top: 2%;
+}

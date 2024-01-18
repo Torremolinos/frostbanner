@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario FrostPunk</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="/assets/img/frostbanner.gif" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Ciudados de nuevo Londres</a></li>
+                <li><a href="#">Imagenes</a></li>
+                <li><a href="templates/formulario.html">Contáctanos</a></li>
+                <li><a href="">Acerca de FrostPunk</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <br><br><br><br><br><br><br><br>
+            <form action="receptor.html" method="get">
+                <h2>Formulario Contacto</h2>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <label for="mensaje">Mensaje</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="21" rows="10" placeholder="Mensaje"></textarea>
+                <br>
+                <input type="radio" name="london" id="london" checked>
+                <label for="london">London</label>
+                <input type="radio" name="newLondon" id="newLondon">
+                <label for="newLondon">New London</label>
+                <br>
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+    </main>
 </body>
+
 </html>
